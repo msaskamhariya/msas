@@ -991,7 +991,30 @@ textarea.form-control {
         font-size: 2rem;
     }
 }
-
+    .notice-marquee span.label {
+        padding: 2px 8px;
+        margin-right: 5px;
+        font-size: 0.7rem;
+        border-radius: 0 10px 10px 0;
+        white-space: nowrap;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+    }
+    .notice-marquee span.label br {
+        display: none;
+    }
+    .notice-marquee .urdu-text {
+        margin-left: 0;
+        font-size: 0.6rem !important;
+        margin-top: 1px;
+    }
+    .notice-marquee marquee {
+        font-size: 0.9rem;
+    }
+}
 /* Watermark 99 Names of Allah */
 .names-watermark-container {
     position: absolute;
